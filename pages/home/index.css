@@ -1,0 +1,359 @@
+* {
+    box-sizing: border-box;
+    border: 0px;
+    margin: 0px;
+}
+
+.cabecalho-home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 6rem;
+    background-color: #F6ED19;
+    padding-left: 0px;
+}
+
+.cont-01{
+    width: 33.2%;
+    padding: 25px;
+    
+}
+
+.menu-icon{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.button-menu{
+    background-color: transparent;
+}
+
+
+.button-menu:focus + .menu-open{
+    opacity: 1;
+    top: 0;
+}
+
+/* ESTILIZAÇÃO DO MENU */
+
+.menu-open{
+    position: fixed;
+    left: 0;
+    width: 15rem;
+    height: 200vh;
+    background-color: #F6ED19;
+    opacity: 0;
+    border: 1px solid black;
+}
+
+.cont-01-menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: 6rem;
+}
+
+.cont-02-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: max-content;
+    padding-top: 15px;
+}
+
+.title-menu-01{
+    font-size: 30px;
+    color: black;
+    font-family: 'M PLUS 2';
+    font-weight: 400;
+}
+
+.topico-categorias{
+    font-size: 22px;
+    font-family: 'M PLUS 2';
+    font-weight: 500;
+    color: black;
+    text-decoration: underline;
+}
+
+.cont-01-cat{
+    width: 100%;
+    height: max-content;
+}
+
+.casa-e-escritorio{
+    font-size: 18px;
+    font-family: 'M PLUS 2';
+    font-weight: 400;
+    color: black;
+}
+
+
+.cont-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 33.2%;
+    height: 5.5rem;
+    pointer-events: none;
+}
+
+.logo-icon{
+    width:60px;
+    height: 55px;
+    margin-bottom: -6px;
+    pointer-events: none;
+    user-select: none;
+}
+
+.title-logo{
+    font-family: 'M PLUS 2';
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -0.075em;
+    margin: 0px;
+    user-select: none;
+    pointer-events: none;
+}
+
+.cont-navegacao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 33.2%;
+    height: 90%;
+}
+
+.text-navegacao{
+    color: black;
+    font-size: 20px;
+    font-family: 'M PLUS 2';
+    font-weight: 500;
+    text-decoration: none;
+    padding-right: 10px;
+    margin-right: 10px;
+    border-right: 1px solid black;
+    transition: 0.5s;
+}
+
+.text-navegacao:hover{
+    color: rgb(47, 47, 47);
+    text-decoration: underline;
+}
+
+.text-navegacao-off{
+    color: black;
+    font-size: 20px;
+    font-family: 'M PLUS 2';
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+.text-navegacao-off:hover{
+    color: rgb(47, 47, 47);
+    text-decoration: underline;
+}
+
+.cont-faixa1{
+    width: 100%;
+    height: 19rem;
+    background-image: url("../../assets/images/background-faixa1.svg");
+}
+
+.cont-faixa2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 35rem;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.cont-titulo-faixa2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 100%;
+    height: 3rem;
+    background-color: #f6ef24d9;
+}
+
+.icon-faixa1{
+    width: 30px;
+    height: 30px;
+}
+
+.title-faixa1{
+    font-family: 'M PLUS 2';
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+
+.cont-cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    width: 100%;
+    height: 30rem;
+}
+
+.card-produtos{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 17rem;
+    height: 25rem;
+    border: 0.1px solid #959595;
+}
+
+.cont-group1-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 0px;
+    width: 100%;
+    height: 15rem;
+}
+
+.cont-desc-icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 98%;
+    height: 3rem;   
+}
+
+.cont-desc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.9rem;
+    height: 75%;
+    border-radius: 4px;
+    background-color: #F6EE24;
+}
+
+.porcentagem-desconto{
+    margin: 0px;
+    font-size: 15px;
+    font-family: 'M PLUS 2';
+    font-weight: 500;
+    color: black;
+}
+
+.cont-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 75%;
+    border-radius: 4px;
+    background-color: #F6EE24;
+}
+
+.icon-card{
+    width: 30px;
+    height: 30px;
+}
+
+.cont-imagem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 10.5rem;
+}
+
+.imagem-produto{
+    width: 95%;
+    height: 100%;
+}
+
+.cont-group2-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 9.4rem;
+    border-top: 0.1px solid #959595;
+    padding: 10px;
+    gap:2px;
+}
+
+.prod-name{
+    height: 2.5rem;
+    font-family: 'M PLUS 2';
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: black;
+}
+
+.cont-valor-prod{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    height: 3rem;
+    margin-bottom: 10px;
+}
+
+.valor-produto{
+    font-size: 13px;
+    font-family: 'M PLUS 2';
+    font-weight: 500;
+    text-decoration: line-through;
+    color: #AB0B0B;
+}
+
+.valor-desconto{
+    font-size: 18px;
+    font-family: 'M PLUS 2';
+    font-weight: 500;
+    color: #1A5D03;
+    margin-top: -5px;
+}
+
+.botao-compra{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center ;
+    width: 8rem;
+    height: 2.5rem;
+    border-radius: 3px;
+    background-color: #F6ED19;
+    cursor: pointer;
+
+    font-size: 14px;
+    font-family: 'M PLUS 2';
+    font-weight: 500;
+    color: black;
+    transition: 0.2s;
+}
+
+.botao-compra:hover{
+    background-color: transparent;
+    color: rgb(42, 42, 42);
+    border: 0.1px solid rgb(42, 42, 42);
+}
