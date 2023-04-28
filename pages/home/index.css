@@ -35,6 +35,15 @@
     width: 17rem;
     height: 200vh;
     opacity: 1;
+    left: 0;
+    top: 0;
+}
+
+.menu-open:hover{
+    width: 17rem;
+    height: 200vh;
+    left: 0;
+    opacity: 1;
     top: 0;
 }
 
@@ -42,7 +51,7 @@
 
 .menu-open{
     position: fixed;
-    left: 0 ;
+    left: -300px;
     width: 0;
     height: 0;
     background-color: #F6ED19;
