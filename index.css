@@ -686,11 +686,11 @@ body{
     /* CABEÇALHO */
 
     .cabecalho-home{
-        height: 7rem;
+        height: 9rem;
     }
     .menu-icon{
-        width: 40px;
-        height: 40px;
+        width: 50px;
+        height: 50px;
     }
     .cont-logo{
         width: 35%;
@@ -698,11 +698,11 @@ body{
         pointer-events: none;
     }
     .logo-icon{
-        width:70px;
-        height: 55px;
+        width:80px;
+        height: 70px;
     }
     .title-logo{
-        font-size: 30px;
+        font-size: 40px;
     }
     .text-navegacao{
         display: none;
@@ -723,9 +723,167 @@ body{
         flex-direction: row-reverse;
         justify-content: flex-end;
         padding-left: 20px;
-        gap: 200px;
+        gap: 180px;
     }
     .title-menu-01{
+        font-weight: 500;
+        font-size: 50px;
+    }
+    .cont-02-menu{
+        height: max-content;
+        margin-bottom: 20px;
+        gap: 30px;
+    }
+    .topico-categorias{
+        margin-top: 50px;
+        font-size: 40px;
+    }
+    .cont-01-cat{
+        padding-left: 30px;
+        height: max-content;
+        gap: 20px;
+    }
+    .title-categorias-menu{
+        font-size: 40px;
+    }
+    .icon-home-menu{
+        width: 70px;
+        height: 70px;
+    }
+    .list-services{
+        width: 90%;
+    }
+    .service-options{
+        font-size: 35px;
+    }
+    .service-options-off{
+        font-size: 35px;
+    }
+    .title-services{
+        font-size: 40px; 
+    }
+    .message-orc{
+        text-align: center;
+        font-size: 38px;
+    
+    }
+    .container-apps{
+        width: 100%;
+        height: max-content;
+        gap: 25px;
+    }
+    .element-message-app{
+        width: 90%;
+        height: max-content;
+        font-size: 37px;
+    }
+    .element-icon-apps{
+        width: 130px;
+        height: 130px;
+    }
+
+    /* FAIXA 1 */
+
+    .cont-faixa1{
+        padding-top: 10px;
+        justify-content: flex-start;
+        height: 23rem;   
+    }
+    .cont-info1-f1{
+        align-items: center;
+        height: 60%;
+        gap: 20px;
+    }
+    .cont-info2-f1{
+        display: none;
+    }
+    .title-f1{
+        font-weight: 500;
+        font-size: 40px;
+    }
+    .subtitle-f1{
+        width: 80%;
+        font-size: 30px;
+    }
+
+    /* FAIXA 2 */
+
+    .cont-titulo-faixa2{
+        height: 5rem;
+    }
+    .icon-faixa1{
+        width: 58px;
+        height: 58px;
+    }
+    .title-faixa1{
+        font-size: 39px;
+    }
+    .cont-cards{
+        height: max-content;
+        flex-wrap: wrap;
+    }
+    .card-produtos{
+        width: 50rem;
+        height: 75rem;
+        margin-bottom: 40px;
+    }
+    .cont-group1-card{
+        height: 60%;
+    }
+    .cont-group2-card{
+        height: 40%;
+        padding-top: 20px;
+        gap: 20px;
+    }
+    .cont-desc-icon{
+        width: 90%;
+        height: max-content;
+    }
+    .cont-desc{
+        width: 10rem;
+        height: 7rem;
+    }
+    .porcentagem-desconto{
+        font-size: 45px;
+    }
+    .cont-icon{
+        width: 7rem;
+        height: 90%;
+    }
+    .icon-card{
+        width: 70px;
+        height: 70px;
+    }
+    .cont-imagem{
+        width: 80%;
+        height: 30rem;
+        margin-top: 30px;
+    }
+    .prod-name{
+        padding-top: 10px;
+        height: 9rem;
+        font-size: 45px;
+        margin: 0px;
+    }
+    .cont-valor-prod{
+        width: 100%;
+        height: max-content;
+    }
+    .valor-produto{
+        font-size: 42px;
+        width: 100%;
+        height: 4rem;
+    }
+    .valor-desconto{
+        font-size: 50px;
+        width: 100%;
+        height: max-content;
+    }
+    .botao-compra{
+        width: 30rem;
+        height: 6rem;
+        border-radius: 10px;
+    
         font-size: 35px;
     }
 }
