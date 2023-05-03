@@ -317,19 +317,16 @@ body{
     width: 95%;
     height: 40%;
     gap: 5px;
-
-    border: 1px solid white;
 }
 
 .cont-info2-f1{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    justify-content: flex-end;    
+    justify-content: flex-end;
+    gap: 10px;    
     width: 95%;
     height: 40%;
-
-    border: 1px solid white;
 }
 
 .title-f1{
@@ -344,11 +341,13 @@ body{
     color: #fff;
     font-size: 17px;
     font-weight: 400;
+    text-align: center;
     font-family: 'M PLUS 2';
 }
 
 .title2-f1{
     color: #fff;
+    text-align: right;
     font-size: 18px;
     font-family: 'M PLUS 2';
     text-decoration: underline;
@@ -681,4 +680,52 @@ body{
 .icon-info-dev{
     width: 35px;
     height: 40px;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 400px) {
+    /* CABEÇALHO */
+
+    .cabecalho-home{
+        height: 7rem;
+    }
+    .menu-icon{
+        width: 40px;
+        height: 40px;
+    }
+    .cont-logo{
+        width: 35%;
+        height: 7rem;
+        pointer-events: none;
+    }
+    .logo-icon{
+        width:70px;
+        height: 55px;
+    }
+    .title-logo{
+        font-size: 30px;
+    }
+    .text-navegacao{
+        display: none;
+    }
+    .text-navegacao-off{
+        display: none;
+    }
+
+    /* MENU */
+
+    .button-menu:focus + .menu-open{
+        width: 40rem;
+    }
+    .menu-open:hover{
+        width: 40rem;
+    }
+    .cont-01-menu{
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        padding-left: 20px;
+        gap: 200px;
+    }
+    .title-menu-01{
+        font-size: 35px;
+    }
 }
