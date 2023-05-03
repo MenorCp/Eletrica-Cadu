@@ -686,11 +686,11 @@ body{
     /* CABEÇALHO */
 
     .cabecalho-home{
-        height: 9rem;
+        height: 11rem;
     }
     .menu-icon{
-        width: 50px;
-        height: 50px;
+        width: 60px;
+        height: 60px;
     }
     .cont-logo{
         width: 35%;
@@ -698,17 +698,25 @@ body{
         pointer-events: none;
     }
     .logo-icon{
-        width:80px;
-        height: 70px;
+        width: 90px;
+        height: 90px;
     }
     .title-logo{
-        font-size: 40px;
+        width: max-content;
+        font-size: 50px;
     }
     .text-navegacao{
         display: none;
     }
     .text-navegacao-off{
         display: none;
+    }
+
+    /* LINK WHATS */
+
+    .cont-whats-compra{
+        width: 200px;
+        height: 200px;
     }
 
     /* MENU */
@@ -720,14 +728,15 @@ body{
         width: 40rem;
     }
     .cont-01-menu{
+        height: 11rem;
         flex-direction: row-reverse;
         justify-content: flex-end;
         padding-left: 20px;
-        gap: 180px;
+        gap: 160px;
     }
     .title-menu-01{
         font-weight: 500;
-        font-size: 50px;
+        font-size: 55px;
     }
     .cont-02-menu{
         height: max-content;
@@ -809,25 +818,26 @@ body{
     /* FAIXA 2 */
 
     .cont-titulo-faixa2{
-        height: 5rem;
+        height: 7rem;
     }
     .icon-faixa1{
-        width: 58px;
-        height: 58px;
+        width: 70px;
+        height: 70px;
     }
     .title-faixa1{
-        font-size: 39px;
+        font-size: 50px;
     }
     .cont-cards{
         height: max-content;
         flex-wrap: wrap;
     }
     .card-produtos{
-        width: 50rem;
-        height: 75rem;
+        width: 47rem;
+        height: 78rem;
         margin-bottom: 40px;
     }
     .cont-group1-card{
+        padding-top: 28px;
         height: 60%;
     }
     .cont-group2-card{
@@ -842,6 +852,7 @@ body{
     .cont-desc{
         width: 10rem;
         height: 7rem;
+        border-radius: 13px;
     }
     .porcentagem-desconto{
         font-size: 45px;
@@ -866,8 +877,9 @@ body{
         margin: 0px;
     }
     .cont-valor-prod{
-        width: 100%;
+        width: 90%;
         height: max-content;
+        margin-bottom: 20px;
     }
     .valor-produto{
         font-size: 42px;
