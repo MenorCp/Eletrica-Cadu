@@ -898,4 +898,48 @@ body{
     
         font-size: 35px;
     }
+    
+    /* RODAPÉ */
+
+    .rodape-home{
+        width: 100%;
+        height: max-content;
+    }
+    .cont-logo-rodape{
+        width: 90%;
+        height: 12rem;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo-icon{
+        width:  110px;
+        height: 110px;
+    }
+    .title-logo-rodape{
+        font-size: 55px;
+    }
+    .cont-infos-rodape{
+        flex-direction: column;
+        width: 100%;
+        height: max-content;
+    }
+    .cont-info-on{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 30rem;
+
+        border: 0.1px solid rebeccapurple;
+    }
+    .cont-info-off{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 30rem;
+
+        border: 0.1px solid rebeccapurple;
+    }
+    .title-info-rodape{
+        font-size: 40px;
+    }
 }
