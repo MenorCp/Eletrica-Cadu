@@ -34,6 +34,15 @@
     width: 17rem;
     height: 200vh;
     opacity: 1;
+    left: 0;
+    top: 0;
+}
+
+.menu-open:hover{
+    width: 17rem;
+    height: 200vh;
+    left: 0;
+    opacity: 1;
     top: 0;
 }
 
@@ -41,7 +50,7 @@
 
 .menu-open{
     position: fixed;
-    left: 0 ;
+    left: -300px;
     width: 0;
     height: 0;
     background-color: #F6ED19;
@@ -183,7 +192,6 @@
 }
 
 
-
 /* FIM DO MENU */
 
 .casa-e-escritorio{
@@ -286,10 +294,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     width: 100%;
-    height: 90.1vh;
-    gap: 10px;
+    height: 100vh;
+    padding-top: 30px;
+    gap: 30px;
 
     background-color: #D3D3D3;
 }
@@ -320,17 +329,20 @@
 
 .text-history{
     width: 50%;
+    font-size: 30px;
+    font-family: 'M PLUS 2';
+    font-weight: 400;
+    color: #000;
 }
 
 
 .cont-info-history{
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
     width: 90%;
-    height: 45rem;
-
-    border: 0.1px solid black;
+    height: 40rem;
 }
 
 .img-history{
@@ -338,6 +350,22 @@
     height: 100%;
     font-family: 'M PLUS 2';
     color: #000;
+}
+
+
+.text-voltar{
+    display: flex;
+    color: black;
+    font-size: 20px;
+    font-family: 'M PLUS 2';
+    font-weight: 500;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.link-insta-whats{
+    width: max-content;
+    height: max-content;
 }
 
 @media screen and (max-width:1000px) and (min-width: 300px) {
@@ -382,7 +410,8 @@
     .cont-main-sobns{
         justify-content: flex-start;
         padding-top: 25px;
-        height: 91.7vh;
+        height: max-content;
+        padding-bottom: 50px;
     
         background-color: #D3D3D3;
     }
@@ -393,19 +422,20 @@
     .cont-info-history{
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        align-items: center;
         width: 90%;
-        height: 80rem;
-    
-        border: 0.1px solid black;
+        height: max-content;
+        gap: 30px;
     }
     .img-history{
         width: 100%;
-        height: 50%;
+        height: 60%;
     }
     .text-history{
         width: 100%;
         height: 50%;
+        text-align: center;
+        font-size: 50px;
     }
     .title-history{
         font-size: 45px;
@@ -413,5 +443,79 @@
     .icon-history{
         width: 70px;
         height: 70px;
+    }
+
+
+    .button-menu:focus + .menu-open{
+        width: 40rem;
+    }
+    .menu-open:hover{
+        width: 40rem;
+    }
+    .cont-01-menu{
+        height: 11rem;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        padding-left: 20px;
+        gap: 160px;
+    }
+    .title-menu-01{
+        font-weight: 500;
+        font-size: 55px;
+    }
+    .cont-02-menu{
+        height: max-content;
+        margin-bottom: 20px;
+        gap: 30px;
+    }
+    .topico-categorias{
+        margin-top: 50px;
+        font-size: 40px;
+    }
+    .cont-01-cat{
+        padding-left: 30px;
+        height: max-content;
+        gap: 20px;
+    }
+    .title-categorias-menu{
+        font-size: 40px;
+    }
+    .icon-home-menu{
+        width: 70px;
+        height: 70px;
+    }
+    .list-services{
+        width: 90%;
+    }
+    .service-options{
+        font-size: 35px;
+    }
+    .service-options-off{
+        font-size: 35px;
+    }
+    .title-services{
+        font-size: 40px; 
+    }
+    .message-orc{
+        text-align: center;
+        font-size: 38px;
+    
+    }
+    .container-apps{
+        width: 100%;
+        height: max-content;
+        gap: 25px;
+    }
+    .element-message-app{
+        width: 90%;
+        height: max-content;
+        font-size: 37px;
+    }
+    .element-icon-apps{
+        width: 130px;
+        height: 130px;
+    }
+    .text-voltar{
+        font-size: 35px;
     }
 }
