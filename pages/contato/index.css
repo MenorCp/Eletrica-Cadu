@@ -318,14 +318,10 @@
     letter-spacing: -0.075em;
 }
 
-.text-history{
-    width: 50%;
-}
-
-
 .cont-info-history{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
     justify-content: space-between;
     width: 90%;
     height: 45rem;
@@ -333,12 +329,21 @@
     border: 0.1px solid black;
 }
 
-.img-history{
-    width: 35%;
-    height: 100%;
+.title-whats-insta{
+    width: 24%;
+    text-align: center;
+    font-weight: 300;
+    font-size: 25px;
     font-family: 'M PLUS 2';
     color: #000;
 }
+
+.icons-ctt{
+    width:90px;
+    height: 90px;
+}
+
+
 
 @media screen and (max-width:1000px) and (min-width: 300px) {
     /* CABEÇALHO */
