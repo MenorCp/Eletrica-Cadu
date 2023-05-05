@@ -280,3 +280,138 @@
     width: 80%;
     height: 80%;
 }
+
+/* FAIXA 1 -- HISTÓRIA */
+.cont-main-sobns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90.1vh;
+    gap: 10px;
+
+    background-color: #D3D3D3;
+}
+
+.cont-history-faixa1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 3.5rem;
+    gap: 8px;
+
+    background-color: #FFF853;
+}
+
+.icon-history{
+    width: 35px;
+    height: 35px;
+}
+
+.title-history{
+    font-size: 25px;
+    font-family: 'M PLUS 2';
+    font-weight: 500;
+    letter-spacing: -0.075em;
+}
+
+.text-history{
+    width: 50%;
+}
+
+
+.cont-info-history{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    height: 45rem;
+
+    border: 0.1px solid black;
+}
+
+.img-history{
+    width: 35%;
+    height: 100%;
+    font-family: 'M PLUS 2';
+    color: #000;
+}
+
+@media screen and (max-width:1000px) and (min-width: 300px) {
+    /* CABEÇALHO */
+
+    .cabecalho-home{
+        height: 11rem;
+    }
+    .menu-icon{
+        width: 60px;
+        height: 60px;
+    }
+    .cont-logo{
+        width: 35%;
+        height: 7rem;
+        pointer-events: none;
+    }
+    .logo-icon{
+        width: 90px;
+        height: 90px;
+    }
+    .title-logo{
+        width: max-content;
+        font-size: 50px;
+    }
+    .text-navegacao{
+        display: none;
+    }
+    .text-navegacao-off{
+        display: none;
+    }
+
+    /* LINK WHATS */
+
+    .cont-whats-compra{
+        width: 200px;
+        height: 200px;
+    }
+
+    /* FAIXA 1 */
+
+    .cont-main-sobns{
+        justify-content: flex-start;
+        padding-top: 25px;
+        height: 91.7vh;
+    
+        background-color: #D3D3D3;
+    }
+
+    .cont-history-faixa1{
+        height: 6rem;
+    }
+    .cont-info-history{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 90%;
+        height: 80rem;
+    
+        border: 0.1px solid black;
+    }
+    .img-history{
+        width: 100%;
+        height: 50%;
+    }
+    .text-history{
+        width: 100%;
+        height: 50%;
+    }
+    .title-history{
+        font-size: 45px;
+    }
+    .icon-history{
+        width: 70px;
+        height: 70px;
+    }
+}
